@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A17087312D2E546000D93257 /* onboarding1.png in Resources */ = {isa = PBXBuildFile; fileRef = A17087302D2E546000D93257 /* onboarding1.png */; };
+		A17087322D2E546000D93257 /* onboarding1.png in Resources */ = {isa = PBXBuildFile; fileRef = A17087302D2E546000D93257 /* onboarding1.png */; };
 		CE37EF752D20BA63009450CC /* AppDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE37EF742D20BA63009450CC /* AppDataManager.swift */; };
 		CE37EF772D20BA7D009450CC /* BlacklistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE37EF762D20BA7D009450CC /* BlacklistView.swift */; };
 		CE37EF792D20BA95009450CC /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE37EF782D20BA95009450CC /* MainTabView.swift */; };
@@ -102,6 +104,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A17087302D2E546000D93257 /* onboarding1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = onboarding1.png; sourceTree = "<group>"; };
 		CE37EF742D20BA63009450CC /* AppDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDataManager.swift; sourceTree = "<group>"; };
 		CE37EF762D20BA7D009450CC /* BlacklistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlacklistView.swift; sourceTree = "<group>"; };
 		CE37EF782D20BA95009450CC /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
@@ -211,6 +214,7 @@
 				CE7F64CA2D207CE40060BAB5 /* Icon.png */,
 				CE7F64CB2D207CE40060BAB5 /* Style.css */,
 				CE7F64CC2D207CE40060BAB5 /* Script.js */,
+				A17087302D2E546000D93257 /* onboarding1.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -426,6 +430,7 @@
 				CE7F650F2D207CE40060BAB5 /* Icon.png in Resources */,
 				CEC12D462D2DB96F00659127 /* porn-websites.txt in Resources */,
 				CE7F64E72D207CE40060BAB5 /* LaunchScreen.storyboard in Resources */,
+				A17087322D2E546000D93257 /* onboarding1.png in Resources */,
 				CE7F650D2D207CE40060BAB5 /* Main.html in Resources */,
 				CE7F65132D207CE40060BAB5 /* Script.js in Resources */,
 				CE7F65172D207CE40060BAB5 /* Assets.xcassets in Resources */,
@@ -444,6 +449,7 @@
 				CE7F65142D207CE40060BAB5 /* Script.js in Resources */,
 				CE7F65182D207CE40060BAB5 /* Assets.xcassets in Resources */,
 				CEC12D472D2DB96F00659127 /* porn-websites.txt in Resources */,
+				A17087312D2E546000D93257 /* onboarding1.png in Resources */,
 				CE7F650E2D207CE40060BAB5 /* Main.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

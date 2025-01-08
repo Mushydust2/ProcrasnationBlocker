@@ -1,7 +1,7 @@
 console.log("Content script initialized!");
 
 // Redirect URL
-const redirectUrl = "https://procrastinationblocker.com/remind";
+const redirectUrl = "https://www.inspiringquotes.com/";
 
 // Function to check if the current URL matches any blocked sites
 function isUrlBlocked(blockedUrls, currentUrl) {
@@ -42,10 +42,64 @@ function blockWebsite() {
   console.log("=== Blocking Website ===");
   try {
     document.body.innerHTML = `
-            <div style="text-align: center; margin-top: 20%;">
-                <h1>This site is blocked by Procrastination Blocker!</h1>
-                <p>Redirecting to your productivity reminder...</p>
-            </div>
+           <!DOCTYPE html>
+           <html lang="en">
+           <head>
+               <meta charset="UTF-8">
+               <meta name="viewport" content="width=device-width, initial-scale=1.0">
+               <title>CutOff Blocker</title>
+               <style>
+                   body {
+                       margin: 0;
+                       padding: 0;
+                       box-sizing: border-box;
+                       font-family: 'Arial', sans-serif;
+                       background: linear-gradient(to bottom, #4A90E2, #9013FE);
+                       color: #fff;
+                       display: flex;
+                       justify-content: center;
+                       align-items: center;
+                       height: 100vh;
+                       text-align: center;
+                   }
+                   .blocker-container {
+                       background: rgba(255, 255, 255, 0.1);
+                       padding: 30px;
+                       border-radius: 15px;
+                       box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+                   }
+                   h1 {
+                       font-size: 2rem;
+                       margin-bottom: 15px;
+                   }
+                   p {
+                       font-size: 1rem;
+                       opacity: 0.9;
+                   }
+                   .redirect-animation {
+                       margin-top: 20px;
+                       font-size: 0.9rem;
+                       animation: fadeInOut 2s infinite;
+                   }
+                   @keyframes fadeInOut {
+                       0%, 100% {
+                           opacity: 0.3;
+                       }
+                       50% {
+                           opacity: 1;
+                       }
+                   }
+               </style>
+           </head>
+           <body>
+               <div class="blocker-container">
+                   <h1>This site is blocked by CutOff Blocker!</h1>
+                   <p>Redirecting to your productivity reminder...</p>
+                   <div class="redirect-animation">Stay focused! 🚀</div>
+               </div>
+           </body>
+           </html>
+
         `;
 
     setTimeout(() => {

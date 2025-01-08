@@ -11,7 +11,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             let window = UIWindow(windowScene: windowScene)
 
             // Check if onboarding is complete
-            let onboardingComplete = UserDefaults.standard.bool(forKey: "onboardingComplete")
+            let onboardingComplete = false//UserDefaults.standard.bool(forKey: "onboardingComplete")
             
             // Set the initial view
             if onboardingComplete {

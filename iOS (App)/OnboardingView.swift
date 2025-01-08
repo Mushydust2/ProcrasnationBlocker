@@ -5,7 +5,7 @@ struct OnboardingView: View {
     @State private var onboardingCompleted = false // Tracks if onboarding is complete
 
     let onboardingData = [
-        OnboardingPage(imageName: "onboarding1", title: "Create a prototype in just a few minutes", description: "Enjoy these pre-made components and worry only about creating the best product ever."),
+        OnboardingPage(imageName: "onboarding1", title: "Take Control of Your Focus. Block Distractions, Boost Productivity.", description: "Utilize our Website, Video, and Image Blocking features to control your focus."),
         OnboardingPage(imageName: "onboarding2", title: "Block distracting websites", description: "Use this app to add websites you want to block while working."),
         OnboardingPage(imageName: "onboarding3", title: "Enable the Safari Extension", description: "To start blocking unwanted content, please enable the Safari extension in your device settings.")
     ]
